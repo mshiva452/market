@@ -1,0 +1,37 @@
+.all-indices {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.all-indices table {
+	padding: 15px 30px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.all-indices table thead tr th {
+	text-align: left;
+	background: #253743;
+	padding: 10px;
+	color: #fff;
+}
+
+.all-indices table tbody tr {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.all-indices table tbody tr td {
+	padding: 10px;
+}
+
+.odd-tr {
+	background: #fcfcfc;
+}
+
+.even-tr {
+	background: #fcfcfc;
+}
+
+.text-center {
+	text-align: center;
+}
