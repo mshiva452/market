@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Advances from './Advances'
 import Declines from './Declines';
-import axios from 'axios';
 
 const AllIndices = () => {
     const [AllIndices, setIndices] = useState([]);
@@ -9,18 +8,24 @@ const AllIndices = () => {
     const [error, setError] = useState(false);
 
     useEffect(() => {
-        setLoading(true);
-        axios.get("http://localhost:5000/market/allIndices")
-        .then(response => {
+        setLoading(true)
+        const client = new WebSocket("ws://localhost:5000")
+        client.onopen = () => {
+            client.send('CLIENT: Connected to server.');
+        }
+
+        client.onmessage = (event) => {
+            const jsonData = JSON.parse(event.data);
             setLoading(false)
-            setIndices(response.data.searchResults)
-        })
-        .catch(error => {
-            setLoading(false)
-            setError("No results found")
-        })
+            if(jsonData.length!==0){
+                setIndices(jsonData);
+            } else {
+                setError(true)
+            }
+        }
     }, [])
     
+
     return (
         <div className="all-indices">
             <table>

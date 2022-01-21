@@ -1,0 +1,244 @@
+{
+    "superheroes": [
+        {
+            "id": 1,
+            "name": "Batman"
+        },
+        {
+            "id": 1,
+            "name": "Superman"
+        },
+        {
+            "id": 1,
+            "name": "Wonder Woman"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    },
+    "posts": [
+        {
+            "indexId": "2346",
+            "indexName": "Nifty Next 50",
+            "advances": 27,
+            "declines": 40
+        },
+        {
+            "indexId": "186",
+            "indexName": "Nifty IT",
+            "advances": 6,
+            "declines": 4
+        },
+        {
+            "indexId": "1913",
+            "indexName": "Nifty Bank",
+            "advances": 5,
+            "declines": 7
+        },
+        {
+            "indexId": "13027",
+            "indexName": "Nifty FMCG",
+            "advances": 10,
+            "declines": 5
+        },
+        {
+            "indexId": "14116",
+            "indexName": "Nifty Alpha 50",
+            "advances": 28,
+            "declines": 27
+        },
+        {
+            "indexId": "2495",
+            "indexName": "Nifty Midcap 100",
+            "advances": 54,
+            "declines": 46
+        },
+        {
+            "indexId": "13021",
+            "indexName": "Nifty Services Sector",
+            "advances": 18,
+            "declines": 12
+        },
+        {
+            "indexId": "13016",
+            "indexName": "Nifty Energy",
+            "advances": 8,
+            "declines": 2
+        },
+        {
+            "indexId": "14303",
+            "indexName": "Nifty100 Equal Weight",
+            "advances": 61,
+            "declines": 39
+        },
+        {
+            "indexId": "13019",
+            "indexName": "Nifty MNC",
+            "advances": 14,
+            "declines": 16
+        },
+        {
+            "indexId": "15270",
+            "indexName": "Nifty Private Bank",
+            "advances": 3,
+            "declines": 7
+        },
+        {
+            "indexId": "2510",
+            "indexName": "Nifty 100",
+            "advances": 61,
+            "declines": 39
+        },
+        {
+            "indexId": "13655",
+            "indexName": "Nifty Financial Services",
+            "advances": 13,
+            "declines": 7
+        },
+        {
+            "indexId": "2369",
+            "indexName": "Nifty 50",
+            "advances": 34,
+            "declines": 16
+        },
+        {
+            "indexId": "2371",
+            "indexName": "Nifty 500",
+            "advances": 292,
+            "declines": 207
+        },
+        {
+            "indexId": "13017",
+            "indexName": "Nifty Pharma",
+            "advances": 4,
+            "declines": 16
+        },
+        {
+            "indexId": "15501",
+            "indexName": "Nifty 100 Low Volatility 30",
+            "advances": 19,
+            "declines": 11
+        },
+        {
+            "indexId": "13532",
+            "indexName": "Nifty Smallcap 100",
+            "advances": 61,
+            "declines": 40
+        },
+        {
+            "indexId": "13603",
+            "indexName": "Nifty Auto",
+            "advances": 13,
+            "declines": 2
+        },
+        {
+            "indexId": "13602",
+            "indexName": "Nifty 200",
+            "advances": 115,
+            "declines": 85
+        },
+        {
+            "indexId": "14306",
+            "indexName": "Nifty50 Value 20",
+            "advances": 14,
+            "declines": 6
+        },
+        {
+            "indexId": "2907",
+            "indexName": "Nifty Midcap 50",
+            "advances": 25,
+            "declines": 25
+        },
+        {
+            "indexId": "14353",
+            "indexName": "Nifty Growth Sectors 15",
+            "advances": 8,
+            "declines": 7
+        },
+        {
+            "indexId": "14967",
+            "indexName": "Nifty Midcap Liquid 15",
+            "advances": 8,
+            "declines": 7
+        },
+        {
+            "indexId": "13653",
+            "indexName": "Nifty India Consumption",
+            "advances": 18,
+            "declines": 12
+        },
+        {
+            "indexId": "13654",
+            "indexName": "Nifty Commodities",
+            "advances": 23,
+            "declines": 7
+        },
+        {
+            "indexId": "13605",
+            "indexName": "Nifty Metal",
+            "advances": 7,
+            "declines": 8
+        },
+        {
+            "indexId": "13022",
+            "indexName": "Nifty Infrastructure",
+            "advances": 21,
+            "declines": 9
+        },
+        {
+            "indexId": "13931",
+            "indexName": "Nifty100 Liquid 15",
+            "advances": 10,
+            "declines": 5
+        },
+        {
+            "indexId": "13029",
+            "indexName": "Nifty PSE",
+            "advances": 11,
+            "declines": 9
+        },
+        {
+            "indexId": "15011",
+            "indexName": "Nifty Quality 30",
+            "advances": 19,
+            "declines": 11
+        },
+        {
+            "indexId": "13534",
+            "indexName": "Nifty Dividend Opportunities 50",
+            "advances": 28,
+            "declines": 22
+        },
+        {
+            "indexId": "13026",
+            "indexName": "Nifty PSU Bank",
+            "advances": 8,
+            "declines": 5
+        },
+        {
+            "indexId": "14214",
+            "indexName": "Nifty CPSE",
+            "advances": 6,
+            "declines": 6
+        },
+        {
+            "indexId": "13604",
+            "indexName": "Nifty Media",
+            "advances": 8,
+            "declines": 2
+        },
+        {
+            "indexId": "13030",
+            "indexName": "Nifty Realty",
+            "advances": 6,
+            "declines": 2
+        }
+    ]
+}
